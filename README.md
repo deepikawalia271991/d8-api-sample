@@ -3,9 +3,10 @@
 This repo works using custom module named 'Custom Site configuration'.
 
 Steps:
-1. This provides a new field named 'Site API Key' in Site Configuration form.
+1. Enable the module. 
+2. This provides a new field named 'Site API Key' in Site Configuration form.
 Path: /admin/config/system/site-information
-2. Provides an API URL: /page_data/{apikey}/{nid}
+3. Provides an API URL: /page_data/{apikey}/{nid}
 e.g, /page_data/1234567/1
 This API URL authenticates the user with the API Key sent in the URL.
 Once the user is authenticated, it returns the node data with the node id passed in json format.
